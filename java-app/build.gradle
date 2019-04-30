@@ -1,0 +1,43 @@
+buildscript {
+    ext {
+        springBootVersion = '2.1.4.RELEASE'
+    }
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("org.springframework.boot:spring-boot-gradle-plugin:${springBootVersion}")
+    }
+}
+
+apply plugin: 'java'
+apply plugin: 'org.springframework.boot'
+apply plugin: 'io.spring.dependency-management'
+
+group = 'com.springandreact.catalog'
+version = '0.0.1-SNAPSHOT'
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    h2Version = "1.4.199"
+    liquibaseVersion = "3.6.3"
+    lombokVerson = "1.18.6"
+}
+
+dependencies {
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+
+    implementation "com.h2database:h2:$h2Version"
+    implementation "org.liquibase:liquibase-core:$liquibaseVersion"
+
+    implementation "org.projectlombok:lombok:$lombokVerson"
+
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+
+    runtimeOnly project(':npm-app')
+}

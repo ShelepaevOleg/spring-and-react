@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+                   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                   xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+                                       http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.1.xsd"
+                   logicalFilePath="changelog_prfeuv_1_0.xml">
+
+    <changeSet id="ch-1-userName-1" author="userName">
+        <createTable tableName="book" remarks="Книги">
+            <column name="id" type="bigint" remarks="Уникальный идентификатор">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_book"/>
+            </column>
+            <column name="title" type="varchar(500)" remarks="Заголовок">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+        <createSequence sequenceName="book_sequence"
+                        startValue="1"
+                        incrementBy="1"/>
+    </changeSet>
+
+    <changeSet id="ch-1-userName-2" author="userName">
+        <addColumn tableName="book">
+            <column name="year" type="smallint" remarks="Год издания">
+                <constraints nullable="false"/>
+            </column>
+        </addColumn>
+    </changeSet>
+
+    <changeSet id="ch-1-userName-3" author="userName">
+        <insert tableName="book">
+            <column name="id" valueComputed="book_sequence.NEXTVAL"/>
+            <column name="title" value="Java Persistence API и Hibernate"/>
+            <column name="year" value="2017"/>
+        </insert>
+        <insert tableName="book">
+            <column name="id" valueComputed="book_sequence.NEXTVAL"/>
+            <column name="title" value="Spring in Action"/>
+            <column name="year" value="2014"/>
+        </insert>
+    </changeSet>
+
+</databaseChangeLog>

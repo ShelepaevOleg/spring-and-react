@@ -1,0 +1,7 @@
+.book-table {
+    border-collapse: collapse;
+}
+.book-tr td {
+    border: 1px solid black;
+    text-align: left;
+}
