@@ -26,6 +26,7 @@
 gradle-app.setting
 !gradle-wrapper.jar
 .gradletasknamecache
+**/npm-app.jar
 
 #=======================================================================================================================
 #   ReactJS
@@ -70,6 +71,7 @@ jspm_packages/
 
 # Distribution directories
 dist/
+build_packageNpmApp/
 
 # Typescript v1 declaration files
 typings/

@@ -1,10 +1,15 @@
 # Spring Boot And ReactJS
 
-Spring Boot<br/>
-ReactJS<br/>
-H2<br/>
-Hibernate<br/>
-Liquibase<br/>
+## Backend
+1. Spring Boot
+1. H2
+1. JPA
+1. Liquibase
+
+## Frontend
+1. ReactJS
+1. Mobx
+1. react-router
 
 ## Getting Started
 
@@ -14,7 +19,7 @@ To install the client, cd into the npm-app folder and run:
 npm install
 ```
 
-To run the application, run:
+To run the application, cd into the spring-and-react folder and run:
  
 ```bash
 gradlew bootRun

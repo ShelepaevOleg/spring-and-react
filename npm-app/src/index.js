@@ -13,7 +13,7 @@ import stores from './stores';
 import './index.css';
 
 /* views */
-import App from './components/views/App';
+import App from './components/App';
 
 /* use mobx strict mode */
 configure({

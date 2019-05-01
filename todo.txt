@@ -17,13 +17,12 @@ Scheduler
 Поиск в репозитории как в СИП СГА
 Возврат в клиент как в СИП СГА
 Логирование
-Описать проект в файле README.md
 
 ==================================================================
 Реализовать:
 ==================================================================
 
-12. Создать public-репозиторий на github.
+14. Подключить Spring Security и реализовать авторизацию.
 
 20. Найти и устранить причину ошибки SyntaxError: illegal character (Firefox)
 Ссылки:                 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Errors/Illegal_character
@@ -68,6 +67,11 @@ Scheduler
 ==================================================================
 Сделано:
 ==================================================================
+
+13. Разбить шаблон на header, menu, main, footer
+Ссылки:                 http://dimox.name/press_footer_bottom_with_css/
+
+12. Создать public-репозиторий на github.
 
 11. Реализовать перенаправление SpringBoot на страницу /login
 Ссылки:                 https://stackoverflow.com/questions/39331929/spring-catch-all-route-for-index-html/42998817#42998817

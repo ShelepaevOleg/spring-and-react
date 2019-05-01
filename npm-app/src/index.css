@@ -1,5 +1,84 @@
-body {
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Common styles*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+* {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+img {
+  border: 0;
+  outline: none;
+}
+
+a {
+  color: #0066b3;
+  text-decoration: none;
+  cursor: pointer;
+  outline: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #f60;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+input, textarea {
+  outline: 0;
+}
+
+.black {
+  color: #000 !important;
+}
+
+.gray {
+  color: #999 !important;
+}
+
+.blue {
+  color: #0066b3 !important;
+}
+
+.red {
+  color: #c50202;
+}
+
+.blue_back {
+  background-color: #e8f0f7 !important;
+}
+
+a.black {
+  color: #000;
+  text-decoration: underline;
+}
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+/*Template styles*/
+/*--------------------------------------------------------------------------------------------------------------------*/
+.root {
+  min-width: 100%;
+  min-height: 100%;
+  position: relative;
+}
+.content-wrapper {
+  min-height: calc(100vh - 30px);
+  background-color: lightgreen;
+}
+.footer-wrapper {
+  background: lightsalmon no-repeat top center;
+  background-size: 100%;
+  position: relative;
+  text-align: center;
+  height: 30px;
 }

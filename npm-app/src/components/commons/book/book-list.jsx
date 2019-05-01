@@ -4,7 +4,7 @@ import React from 'react';
 import BookListItem from './book-list-item';
 
 /* styles */
-import style from './styles.css';
+import style from './style.css';
 
 const BookList = props => {
     return (
