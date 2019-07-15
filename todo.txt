@@ -23,25 +23,32 @@ Scheduler
 ==================================================================
 
 14. Подключить Spring Security и реализовать авторизацию.
+Ссылки:     https://www.callicoder.com/spring-boot-spring-security-jwt-mysql-react-app-part-2/
 
 20. Найти и устранить причину ошибки SyntaxError: illegal character (Firefox)
-Ссылки:                 https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Errors/Illegal_character
+Ссылки:     https://developer.mozilla.org/ru/docs/Web/JavaScript/Reference/Errors/Illegal_character
 
 # 30. CSS
 31. Выбрать и подключить современное средство для работы со стилями.
-Ссылка:                 https://habr.com/ru/company/mailru/blog/319956/
+Ссылка:     https://habr.com/ru/company/mailru/blog/319956/
 
 # 40. ReactJS
 41. Организовать структуру каталогов.
-Ссылки:                 https://americanexpress.io/clean-code-dirty-code/
-                        https://www.sitepoint.com/react-architecture-best-practices/
-                        https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed
-                        https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1
+Ссылки:     https://americanexpress.io/clean-code-dirty-code/
+            https://www.sitepoint.com/react-architecture-best-practices/
+            https://hackernoon.com/the-100-correct-way-to-structure-a-react-app-or-why-theres-no-such-thing-3ede534ef1ed
+            https://medium.com/@alexmngn/how-to-better-organize-your-react-applications-2fd3ea1920f1
 42. Реализовать тесты.
 43. Подключить mobx-react-devtools.
 
 # 50. Git
 51. Добавить JAR-фронта из .gitignore.
+
+# 60. Сгенерировать методы контроллера при помощи swagger
+
+# 70. Добавить JMS
+
+# 80. Добавить Apache Camel
 
 # 100. Hibernate
 101. Реализовать заполнение полей кто и когда изменил при помощи Liquibase и Hibernate.
@@ -50,7 +57,7 @@ Scheduler
 # 300. SpringBoot
 301. Реализовать михин, чтоб в UI не возвращалась информация кто и когда заменил.
 302. Добавить /api к пути.
-Ссылки:                 https://stackoverflow.com/questions/28006501/how-to-specify-prefix-for-all-controllers-in-spring-boot
+Ссылки:     https://stackoverflow.com/questions/28006501/how-to-specify-prefix-for-all-controllers-in-spring-boot
 
 # 500. JasperReport
 501. Генерация отчетов при помощи JasperReport.
@@ -69,48 +76,48 @@ Scheduler
 ==================================================================
 
 13. Разбить шаблон на header, menu, main, footer
-Ссылки:                 http://dimox.name/press_footer_bottom_with_css/
+Ссылки:     http://dimox.name/press_footer_bottom_with_css/
 
 12. Создать public-репозиторий на github.
 
 11. Реализовать перенаправление SpringBoot на страницу /login
-Ссылки:                 https://stackoverflow.com/questions/39331929/spring-catch-all-route-for-index-html/42998817#42998817
+Ссылки:     https://stackoverflow.com/questions/39331929/spring-catch-all-route-for-index-html/42998817#42998817
 
 10. Добавить страницу login и реализовать роутинг.
-Ссылки:                 https://getinstance.info/articles/react/learning-react-router/
-                        https://reacttraining.com/react-router/web/guides/quick-start
-                        https://habr.com/ru/post/329996/
-Проверка работы:        http://localhost:8080
-                        http://localhost:8080/login
+Ссылки:     https://getinstance.info/articles/react/learning-react-router/
+            https://reacttraining.com/react-router/web/guides/quick-start
+            https://habr.com/ru/post/329996/
+Проверка:   http://localhost:8080
+            http://localhost:8080/login
 
 9. ReactJS. Перенести метод получения книг из store в api.
 
 8. Заменить абсолютный путь http://localhost:8080/books на относительный в book-store.js.
-Ссылки:                 https://spring.io/guides/tutorials/react-and-spring-data-rest/
+Ссылки:     https://spring.io/guides/tutorials/react-and-spring-data-rest/
 
 7. Реализовать получение данных из http://localhost:8080/books в UI Mobx.
 
 6. Изучить принципы работы с ReactJS+Mobx
-Ссылки:                 https://learnwebtutorials.com/tutorial-intro-to-first-mobx-react-app
-                        https://habr.com/ru/post/324388/
+Ссылки:     https://learnwebtutorials.com/tutorial-intro-to-first-mobx-react-app
+            https://habr.com/ru/post/324388/
 
 5. Реализовать получение JSON объектов Books из БД и передачу их в UI.
-Проверка работы:        http://localhost:8080/books
+Проверка:   http://localhost:8080/books
 
 4. Подключить ReactJS, собрать ReactJS-приложение при помощи Gradle и сделать его отображение в странице http://localhost:8080/.
-Ссылки:                 https://dzone.com/articles/integrating-java-and-npm-builds-using-gradle
-                        https://github.com/xword/java-npm-gradle-integration-example
-                        https://www.jeejava.com/integrate-npm-web-app-in-spring-boot-with-gradle/
-                        https://medium.com/@murphye/hybrid-spring-boot-and-react-or-angular-a-better-way-9d38a013ae70
-                        https://github.com/maciejwalkowiak/spring-boot-react
-Проверка работы:        http://localhost:8080 - ReactJS
+Ссылки:     https://dzone.com/articles/integrating-java-and-npm-builds-using-gradle
+            https://github.com/xword/java-npm-gradle-integration-example
+            https://www.jeejava.com/integrate-npm-web-app-in-spring-boot-with-gradle/
+            https://medium.com/@murphye/hybrid-spring-boot-and-react-or-angular-a-better-way-9d38a013ae70
+            https://github.com/maciejwalkowiak/spring-boot-react
+Проверка:   http://localhost:8080 - ReactJS
                         http://localhost:8080/books - контроллер
 
 3. Подключить Liquibase к проекту.
-Ссылки:                 https://javadeveloperzone.com/spring-boot/spring-boot-liquibase-example/
+Ссылки:     https://javadeveloperzone.com/spring-boot/spring-boot-liquibase-example/
 
 2. Подключить H2 к проекту.
-Ссылки:                 https://o7planning.org/ru/11893/integrating-spring-boot-jpa-and-h2-database
+Ссылки:     https://o7planning.org/ru/11893/integrating-spring-boot-jpa-and-h2-database
 Доступ к H2 в консоли:  http://localhost:8080/h2-console
 В JDBC URL ввести:      jdbc:h2:mem:testdb
 
